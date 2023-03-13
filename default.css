@@ -368,7 +368,11 @@ h6 {
     width: 95%;
   }
 }
-
+@media screen and (max-width: 450px) {
+  #skills ul {
+    padding: 0 10px!important;
+  }
+}
 @media screen and (max-width: 800px) {
     .intro-wrapper {
         
