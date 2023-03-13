@@ -94,7 +94,7 @@ h6 {
 }
 @media(max-width: 450px){
   .greeting-wrapper h1{
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 .intro-wrapper {
@@ -362,6 +362,9 @@ h6 {
     border: none;
     cursor: pointer;
 }
+.resume:hover{
+  color: #197785;
+}
 
 @media screen and (max-width: 1200px) {
   .main-container {
@@ -373,6 +376,14 @@ h6 {
     padding: 0 10px!important;
   }
 }
+
+@media screen and (max-width: 500px) {
+  #social_img {
+    padding: 0px 0px 20px 0px!important;
+  }
+}
+
+
 @media screen and (max-width: 800px) {
     .intro-wrapper {
         
