@@ -92,6 +92,11 @@ h6 {
   text-align: center;
   align-content: center;
 }
+@media(max-width: 450px){
+  .greeting-wrapper h1{
+    font-size: 40px;
+  }
+}
 .intro-wrapper {
   background-color: var(--secondaryColor);
   border: 1px solid var(--borderColor);
